@@ -1,0 +1,25 @@
+.stopwatch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stopwatch h1 {
+  font-size: 4rem;
+  margin: 2rem 0;
+}
+
+.stopwatch button {
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.stopwatch button:hover {
+  background-color: #555;
+}
